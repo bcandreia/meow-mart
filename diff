@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MeowMart - Cat Products You'll Love</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🐾 MeowMart</h1>
+    <p>Your one-stop shop for pawsitively purrfect cat gear!</p>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71K2Qj+zqAL._AC_SL1500_.jpg" alt="Cat Fountain" />
+      <h2>PetSafe Cat Water Fountain</h2>
+      <p>Keep your feline hydrated with this quiet, filtered fountain.</p>
+      <a href="#" target="_blank">Shop on Amazon</a>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61LtuGzX3aL._AC_SL1500_.jpg" alt="Laser Toy" />
+      <h2>Interactive Laser Toy</h2>
+      <p>Automatic fun for your cat – hands-free playtime!</p>
+      <a href="#" target="_blank">Shop on Amazon</a>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61lTzTbVoLL._AC_SL1500_.jpg" alt="Litter Box" />
+      <h2>Self-Cleaning Litter Box</h2>
+      <p>No more scooping! This smart box cleans itself.</p>
+      <a href="#" target="_blank">Shop on Amazon</a>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71wHTaT+q9L._AC_SL1500_.jpg" alt="Cat Tunnel" />
+      <h2>Foldable Cat Tunnel Toy</h2>
+      <p>Great for exercise and hiding. Folds up for easy storage.</p>
+      <a href="#" target="_blank">Shop on Amazon</a>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71i-pfO9pML._AC_SL1500_.jpg" alt="Cat Hammock" />
+      <h2>Window-Mounted Cat Hammock</h2>
+      <p>Let your kitty soak in the sun in comfort and style.</p>
+      <a href="#" target="_blank">Shop on Amazon</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 MeowMart. As an Amazon Associate I earn from qualifying purchases.</p>
+  </footer>
+</body>
+</html>
