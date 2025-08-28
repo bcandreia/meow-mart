@@ -97,7 +97,60 @@
       </div>
     </section>
 
+    <!-- New: More Picks (5 items) -->
+    <section id="more" class="products" aria-labelledby="more-title">
+      <h2 id="more-title">More Picks</h2>
+      <div class="grid">
+        <article class="product-card">
+          <a class="image-wrap" href="https://amzn.to/45UfXP5" target="_blank" rel="nofollow sponsored noopener" aria-label="Open on Amazon: Featured Cat Pick 1">
+            <img loading="lazy" src="https://m.media-amazon.com/images/I/71bNP5QUiJS._AC_SX466_.jpg" alt="Featured cat product 1" />
+          </a>
+          <h3 class="product-title">Featured Cat Pick #1</h3>
+          <p class="product-copy">Customer‑favorite pick. Tap to see details, specs, and reviews on Amazon.</p>
+          <a class="btn" href="https://amzn.to/45UfXP5" target="_blank" rel="nofollow sponsored noopener">Shop on Amazon</a>
+        </article>
+
+        <article class="product-card">
+          <a class="image-wrap" href="https://amzn.to/3VaZ9id" target="_blank" rel="nofollow sponsored noopener" aria-label="Open on Amazon: Featured Cat Pick 2">
+            <img loading="lazy" src="https://m.media-amazon.com/images/I/71aUkRr4QHL._AC_SX466_.jpg" alt="Featured cat product 2" />
+          </a>
+          <h3 class="product-title">Featured Cat Pick #2</h3>
+          <p class="product-copy">Popular with cat owners in 2025. See Amazon page for more.</p>
+          <a class="btn" href="https://amzn.to/3VaZ9id" target="_blank" rel="nofollow sponsored noopener">Shop on Amazon</a>
+        </article>
+
+        <article class="product-card">
+          <a class="image-wrap" href="https://amzn.to/41vFWLE" target="_blank" rel="nofollow sponsored noopener" aria-label="Open on Amazon: Featured Cat Pick 3">
+            <img loading="lazy" src="https://m.media-amazon.com/images/I/91YaPturYTL._AC_SX679_.jpg" alt="Featured cat product 3" />
+          </a>
+          <h3 class="product-title">Featured Cat Pick #3</h3>
+          <p class="product-copy">Well‑rated and easy to use. Check Amazon for full details.</p>
+          <a class="btn" href="https://amzn.to/41vFWLE" target="_blank" rel="nofollow sponsored noopener">Shop on Amazon</a>
+        </article>
+
+        <article class="product-card">
+          <a class="image-wrap" href="https://amzn.to/41sDtS8" target="_blank" rel="nofollow sponsored noopener" aria-label="Open on Amazon: Featured Cat Pick 4">
+            <img loading="lazy" src="https://m.media-amazon.com/images/I/81HscnDjMTL._AC_SX466_.jpg" alt="Featured cat product 4" />
+          </a>
+          <h3 class="product-title">Featured Cat Pick #4</h3>
+          <p class="product-copy">Solid choice for everyday use. See dimensions and options on Amazon.</p>
+          <a class="btn" href="https://amzn.to/41sDtS8" target="_blank" rel="nofollow sponsored noopener">Shop on Amazon</a>
+        </article>
+
+        <article class="product-card">
+          <a class="image-wrap" href="https://amzn.to/42735Ef" target="_blank" rel="nofollow sponsored noopener" aria-label="Open on Amazon: Featured Cat Pick 5">
+            <img loading="lazy" src="https://m.media-amazon.com/images/I/711ny%2BXwHGL._AC_SX679_.jpg" alt="Featured cat product 5" />
+          </a>
+          <h3 class="product-title">Featured Cat Pick #5</h3>
+          <p class="product-copy">Fan‑favorite with lots of reviews. Explore colors and sizes on Amazon.</p>
+          <a class="btn" href="https://amzn.to/42735Ef" target="_blank" rel="nofollow sponsored noopener">Shop on Amazon</a>
+        </article>
+      </div>
+    </section>
+
     <section class="promo">
+      <a class="promo-link" href="https://doggydigs.netlify.app/" target="_blank" rel="noopener">🐶 Visit DoggyDigs — our dog gear picks</a>
+    </section>>
       <a class="promo-link" href="https://doggydigs.netlify.app/" target="_blank" rel="noopener">🐶 Visit DoggyDigs — our dog gear picks</a>
     </section>
   </main>
@@ -131,51 +184,3 @@
 </body>
 </html>
 
-
-/* ------------------------------ */
-/* style.css                      */
-/* ------------------------------ */
-:root{
-  --bg:#f6fbff;
-  --ink:#0f172a;
-  --muted:#475569;
-  --brand:#38bdf8;
-  --brand-ink:#075985;
-  --card:#ffffff;
-  --ring:rgba(56,189,248,.35);
-}
-*{box-sizing:border-box}
-html,body{margin:0;padding:0}
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
-img{display:block;max-width:100%;height:auto;border-radius:14px;object-fit:contain}
-.container{max-width:1100px;margin:auto;padding:0 16px}
-
-.site-header{background:linear-gradient(180deg,#e6f6ff,transparent);padding:28px 0 8px;border-bottom:1px solid #e5eff7}
-.site-title{margin:0;font-size:2rem}
-.tagline{margin:.25rem 0 1rem;color:var(--muted)}
-.site-nav{display:flex;gap:12px;flex-wrap:wrap}
-.site-nav a{padding:6px 10px;border-radius:999px;background:#fff;border:1px solid #e6f3fb;text-decoration:none;color:var(--brand-ink)}
-.site-nav a:hover{box-shadow:0 0 0 3px var(--ring)}
-
-.products{margin:40px 0}
-.products h2{font-size:1.4rem;margin:0 0 12px}
-.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
-.product-card{background:var(--card);border:1px solid #e8eef5;border-radius:18px;padding:14px;grid-column:span 12;box-shadow:0 6px 24px rgba(2,32,71,.04)}
-@media(min-width:640px){.product-card{grid-column:span 6}}
-@media(min-width:960px){.product-card{grid-column:span 4}}
-
-.image-wrap{display:block;position:relative;overflow:hidden}
-.image-wrap img{width:100%;height:auto;object-fit:cover;border-radius:14px}
-
-.product-title{margin:.6rem 0 .25rem;font-size:1.05rem}
-.product-copy{margin:0 0 .8rem;color:var(--muted);font-size:.95rem}
-.btn{display:inline-block;text-decoration:none;background:var(--brand);color:#00243b;border-radius:12px;padding:10px 14px;font-weight:600;border:1px solid #8ee3ff}
-.btn:hover{filter:brightness(0.98);box-shadow:0 6px 18px var(--ring)}
-
-.promo{margin:40px 0;text-align:center}
-.promo-link{display:inline-block;text-decoration:none;border-radius:12px;padding:10px 14px;border:1px dashed #9fdcff;background:#fff;color:var(--brand-ink)}
-.promo-link:hover{box-shadow:0 0 0 3px var(--ring)}
-
-.site-footer{border-top:1px solid #e5eff7;background:#fff;padding:24px 0;margin-top:40px}
-.site-footer p{margin:.25rem 0}
-.disclosure{color:var(--muted);font-size:.9rem}
