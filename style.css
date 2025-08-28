@@ -1,14 +1,12 @@
-/* ------------------------------ */
 /* style.css */
-/* ------------------------------ */
 :root{
---bg:#f6fbff;
---ink:#0f172a;
---muted:#475569;
---brand:#38bdf8;
---brand-ink:#075985;
---card:#ffffff;
---ring:rgba(56,189,248,.35);
+  --bg:#f6fbff;
+  --ink:#0f172a;
+  --muted:#475569;
+  --brand:#38bdf8;
+  --brand-ink:#075985;
+  --card:#ffffff;
+  --ring:rgba(56,189,248,.35);
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
